@@ -1,0 +1,22 @@
+.profile{
+    width: 90%;
+    margin: 1rem auto;
+    padding-top: 100px;
+    position: center;
+}
+
+.sign-out{
+    margin-top: 2rem;
+}
+
+.sign-out h3{
+    text-align: center;
+}
+
+.sign-out-btn{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}

@@ -1,0 +1,21 @@
+.sign-in-container {
+    margin-top: 2rem;
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    padding-top: 2rem;
+}
+
+.sign-in-container .content {
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+.input{
+    margin-bottom: 1rem;
+}

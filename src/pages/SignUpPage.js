@@ -2,13 +2,14 @@ import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { UserAuth } from "../data/AuthContext";
 import "../styles/SignInPage.css";
+import ErrorMessage from "../components/ErrorMessage";
 
 function SignUpPage() {
 
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [error, setError] = useState('')
-    const {createUser} = UserAuth();
+    const { createUser } = UserAuth();
     const navigate = useNavigate()
 
     const handleSubmit = async(e) => {
@@ -36,38 +37,37 @@ function SignUpPage() {
     }
 
     return (
-        <div className='sign-in-container'>
-            <div className="content">
-                <div className="grid-item">
+        <>
+            <div className='sign-in-container'>
+                <div className="content">
+                    <div className="grid-item">
 
-                    <h1> SIGN UP PAGE </h1>
-                    <h2> Create an account and let's get started </h2>
+                        <h1> SIGN UP </h1>
+                        <h2> Create an account and let's get started </h2>
 
-                    <form onSubmit={handleSubmit}>
-                        <div className="input">
-                            <label>
-                                Email
-                            </label>
-                            <input onChange={(e) => setEmail(e.target.value)} type="email"/>
-                        </div>
+                        <form onSubmit={ handleSubmit }>
+                            <div className="input">
+                                <label>
+                                    Email
+                                </label>
+                                <input onChange={(e) => setEmail(e.target.value)} type="email"/>
+                            </div>
 
-                        <div className="input">
-                            <label>
-                                Password
-                            </label>
-                            <input onChange={ (e) =>setPassword(e.target.value)} type="password"/>
-                        </div>
+                            <div className="input">
+                                <label>
+                                    Password
+                                </label>
+                                <input onChange={ (e) =>setPassword(e.target.value)} type="password"/>
+                            </div>
 
-                        { error && <div className="error">{ error }</div>}
+                            {error && <ErrorMessage> { error } </ErrorMessage>}
 
-                        <button> SIGN UP </button>
-
-                        <p> Already registered? <Link to="/sign-in"> SIGN IN </Link></p>
-
-                    </form>
+                            <button> SIGN UP </button>
+                        </form>
+                    </div>
                 </div>
             </div>
-        </div>
+        </>
     );
 }
 

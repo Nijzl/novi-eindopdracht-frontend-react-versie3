@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link, useNavigate } from 'react-router-dom';
 import { UserAuth } from "../data/AuthContext";
 import "../styles/SignInPage.css";
+import ErrorMessage from "../components/ErrorMessage";
 
 const SignInPage = () => {
     const [email, setEmail] = useState('');
@@ -27,10 +28,10 @@ const SignInPage = () => {
             <div className="content">
                 <div className="grid-container">
                     <div className="grid-item">
-                        <h1> SIGN IN PAGE </h1>
+                        <h1> SIGN IN </h1>
                         <h2> Sign in to start quizzing </h2>
 
-                        <form onSubmit={handleSubmit}>
+                        <form onSubmit={ handleSubmit }>
                             <div className="input">
                                 <label>
                                     Email:
@@ -44,7 +45,7 @@ const SignInPage = () => {
                                 <input onChange={(e) =>setPassword(e.target.value)} type="password"/>
                             </div>
 
-                            {error && <div className="error"> Information Incorrect. Please try again </div>}
+                            {error && <ErrorMessage> { error } </ErrorMessage>}
 
                             <div className="sign-in-btn">
                                 <button> SIGN IN </button>

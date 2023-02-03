@@ -37,7 +37,37 @@ function SignUpPage() {
     }
 
     return (
-        <>
+        <div className="page-container">
+            <div className="cover">
+
+                <h2> SIGN UP </h2>
+
+                <form onSubmit={ handleSubmit }>
+                    <div className="input">
+                        <label>
+                            Email
+                        </label>
+                        <input onChange={(e) => setEmail(e.target.value)} type="email"/>
+                    </div>
+
+                    <div className="input">
+                        <label>
+                            Password
+                        </label>
+                        <input onChange={ (e) =>setPassword(e.target.value)} type="password"/>
+                    </div>
+
+                    {error && <ErrorMessage> { error } </ErrorMessage>}
+
+                    <div className="sign-in-btn">
+                        <button> SIGN UP </button>
+                    </div>
+
+                    <p> Got an Account? <Link to="/sign-in"> SIGN IN </Link></p>
+                </form>
+            </div>
+        </div>
+/*        <>
             <div className='sign-in-container'>
                 <div className="content">
                     <div className="grid-item">
@@ -67,7 +97,7 @@ function SignUpPage() {
                     </div>
                 </div>
             </div>
-        </>
+        </>*/
     );
 }
 

@@ -6,7 +6,7 @@
     font-size: 1rem;
 }
 
-.button-column{
+.button-column {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,17 +14,17 @@
     column-count: 3;
 }
 
-.button-log{
+.button-log {
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
 }
 
-h1, h2, p{
+h1, h2, p {
     text-align: center;
 }
 
-.home-page-log{
+.home-page-log {
     margin-top: 75px;
 }

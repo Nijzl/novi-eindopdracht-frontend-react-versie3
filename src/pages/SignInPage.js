@@ -25,7 +25,9 @@ const SignInPage = () => {
     return (
         <div className="page-container">
             <div className="cover">
+
                 <h2> SIGN IN </h2>
+
                 <form onSubmit={ handleSubmit }>
                     <div className="input-container">
                         <label>
@@ -33,6 +35,7 @@ const SignInPage = () => {
                         </label>
                         <input className="input-field" onChange={(e) =>setEmail(e.target.value)} type="email"/>
                     </div>
+
                     <div className="input-container">
                         <label>
                             Password:

@@ -2,6 +2,7 @@ import GameAPI from "../components/PlayAPIQuiz/GameAPI";
 import LoadingSpinner from "../components/LoadingSpinner";
 import ErrorMessage from "../components/ErrorMessage";
 import useGetTriviaData from "../components/hooks/use-get-trivia-data";
+import Footer from "../components/Footer";
 
 function PlayQuizAPIPage() {
 
@@ -13,9 +14,15 @@ function PlayQuizAPIPage() {
     else contents = <GameAPI triviaData={ data }/>;
 
     return(
-        <main>
-            { contents }
-        </main>
+        <>
+            <main>
+                { contents }
+            </main>
+
+            <Footer/>
+        </>
+
+
     );
 }
 

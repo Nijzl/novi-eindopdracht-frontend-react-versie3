@@ -1,6 +1,7 @@
-import React from 'react'
-import {useNavigate} from "react-router-dom";
-import {UserAuth} from "../data/AuthContext";
+import React from "react";
+import { useNavigate } from "react-router-dom";
+import { UserAuth } from "../data/AuthContext";
+import Footer from "../components/Footer";
 import "../styles/ProfilePage.css";
 
 function ProfilePage(){
@@ -21,6 +22,7 @@ function ProfilePage(){
                 <h2> Welcome back! </h2>
                 <p> Currently signed in: { user && user.email } </p>
             </div>
+
             <div className="sign-out">
                 <h3> Done for now? </h3>
                 <div className="sign-out-btn">
@@ -28,6 +30,7 @@ function ProfilePage(){
                 </div>
             </div>
 
+            <Footer/>
         </>
     );
 }

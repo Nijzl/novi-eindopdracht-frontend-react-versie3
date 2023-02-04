@@ -1,13 +1,14 @@
 import HeroSection from "../components/HeroSection";
-import "../styles/HomePage.css";
 import Cards from "../components/Cards";
+import Footer from "../components/Footer";
+import "../styles/HomePage.css";
 
 function HomePage() {
     return (
         <>
             <HeroSection/>
             <Cards/>
-
+            <Footer/>
         </>
     );
 }

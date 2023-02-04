@@ -1,31 +1,8 @@
-/*
-.sign-in-container {
-    margin-top: 1rem;
-    width: 100%;
-    height: 50vh;
-    position: relative;
-}
 
-.sign-in-container .content {
-    position: absolute;
-    top: 0;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    width: 100%;
-    margin: auto;
-}
-
-.input{
-    margin-bottom: 1rem;
-}
-*/
-
-/* --------------------------- MOBILE VERSION ------------------------------ */
 .page-container {
     background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url("../assets/images/trivia.png");
     background-size: cover;
-    height: 100%;
+    height: 80vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -35,9 +12,9 @@
 }
 
 .cover {
-    background-color: white;
+    background-image: url("../assets/images/memphis-colorful-dim.png");
     width: 80%;
-    height: 60vh;
+    height: 60%;
     position: relative;
     border-radius: 1em;
     box-shadow: 0 0.188em 1.550em rgb(156, 156, 156);
@@ -57,7 +34,7 @@
     text-align: center;
     padding: 1em;
     margin-left: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     font-size: 0.75em;
 }
 
@@ -77,7 +54,6 @@
     margin-left: 1rem;
 }
 
-/* -------------------- TABLET OPTIMIZATION -------------------- */
 @media only screen and (min-device-width: 37em) {
     .page-container {
         font-size: 1em;
@@ -90,7 +66,6 @@
     }
 }
 
-/* -------------------- DESKTOP OPTIMIZATION -------------------- */
 @media only screen and (min-device-width: 64em) {
     .page-container {
         font-size: 1em;

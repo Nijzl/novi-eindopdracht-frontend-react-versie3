@@ -54,7 +54,7 @@
     transition: all 0.2s ease-out;
 }
 
-nav-links:active{
+nav-links:active {
     border-bottom: 4px solid #fff;
 }
 

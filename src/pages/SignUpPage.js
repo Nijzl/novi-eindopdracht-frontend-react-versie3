@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { UserAuth } from "../data/AuthContext";
-import "../styles/SignInPage.css";
 import ErrorMessage from "../components/ErrorMessage";
+import "../styles/SignInPage.css";
 
 function SignUpPage() {
 
@@ -43,61 +43,30 @@ function SignUpPage() {
                 <h2> SIGN UP </h2>
 
                 <form onSubmit={ handleSubmit }>
-                    <div className="input">
+                    <div className="input-container">
                         <label>
-                            Email
+                            Email:
                         </label>
-                        <input onChange={(e) => setEmail(e.target.value)} type="email"/>
+                        <input className="input-field" onChange={(e) =>setEmail(e.target.value)} type="email"/>
                     </div>
 
-                    <div className="input">
+                    <div className="input-container">
                         <label>
-                            Password
+                            Password:
                         </label>
-                        <input onChange={ (e) =>setPassword(e.target.value)} type="password"/>
+                        <input className="input-field" onChange={(e) =>setPassword(e.target.value)} type="password"/>
                     </div>
 
-                    {error && <ErrorMessage> { error } </ErrorMessage>}
+                    { error && <ErrorMessage> { error } </ErrorMessage> }
 
                     <div className="sign-in-btn">
-                        <button> SIGN UP </button>
+                        <button> SIGN IN </button>
                     </div>
 
-                    <p> Got an Account? <Link to="/sign-in"> SIGN IN </Link></p>
+                    <p> Already Registered? <Link to="/sign-in"> SIGN IN </Link></p>
                 </form>
             </div>
         </div>
-/*        <>
-            <div className='sign-in-container'>
-                <div className="content">
-                    <div className="grid-item">
-
-                        <h1> SIGN UP </h1>
-                        <h2> Create an account and let's get started </h2>
-
-                        <form onSubmit={ handleSubmit }>
-                            <div className="input">
-                                <label>
-                                    Email
-                                </label>
-                                <input onChange={(e) => setEmail(e.target.value)} type="email"/>
-                            </div>
-
-                            <div className="input">
-                                <label>
-                                    Password
-                                </label>
-                                <input onChange={ (e) =>setPassword(e.target.value)} type="password"/>
-                            </div>
-
-                            {error && <ErrorMessage> { error } </ErrorMessage>}
-
-                            <button> SIGN UP </button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </>*/
     );
 }
 

@@ -6,7 +6,7 @@ function Footer() {
     const year = new Date().getFullYear();
 
     return(
-        <div className="page-footer">
+        <div className="footer-container">
             <p> TriviApp uses the Open Trivia DataBase for its questions and categories </p>
             <p> © LoNi <i className="fa-solid fa-otter"/>, { year } </p>
         </div>

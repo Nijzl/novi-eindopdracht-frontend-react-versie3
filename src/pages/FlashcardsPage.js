@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useRef } from "react";
 import axios from 'axios';
 import FlashcardList from "../components/Flashcards/FlashcardList";
-import "../styles/Flashcards.css"
+import Footer from "../components/Footer";
+import "../styles/Flashcards.css";
 
 function FlashcardsPage(){
 
@@ -74,6 +75,8 @@ function FlashcardsPage(){
             <div className="card-container">
                 <FlashcardList flashcards={ flashcards }/>
             </div>
+
+            <Footer/>
         </>
     );
 }

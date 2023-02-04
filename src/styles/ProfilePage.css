@@ -1,19 +1,19 @@
-.profile{
+.profile {
     width: 100%;
     margin: auto;
     padding-top: 1rem;
     position: center;
 }
 
-.sign-out{
+.sign-out {
     margin-top: 4rem;
 }
 
-.sign-out h3{
+.sign-out h3 {
     text-align: center;
 }
 
-.sign-out-btn{
+.sign-out-btn {
     margin-top: 1rem;
     display: flex;
     justify-content: center;

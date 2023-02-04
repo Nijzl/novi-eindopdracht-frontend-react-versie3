@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import "../styles/Navbar.css"
-import { Link } from 'react-router-dom';
 
 function Navbar(){
 
@@ -30,35 +30,35 @@ function Navbar(){
         <>
             <nav className="navbar">
                 <div className="navbar-container">
-                    <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+                    <Link to="/" className="navbar-logo" onClick={ closeMobileMenu }>
                         TriviApp <i className="fa-solid fa-swatchbook"/>
                     </Link>
-                    <div className="menu-icon" onClick={handleClick}>
-                        <i className={click ? "fas fa-times" : "fas fa-bars"}/>
+                    <div className="menu-icon" onClick={ handleClick }>
+                        <i className={ click ? "fas fa-times" : "fas fa-bars" }/>
                     </div>
-                    <ul className={click ? "nav-menu active" : "nav-menu"}>
+                    <ul className={ click ? "nav-menu active" : "nav-menu" }>
                         <li className="nav-item">
-                            <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+                            <Link to="/" className="nav-links" onClick={ closeMobileMenu }>
                                 HOME
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/api" className="nav-links" onClick={closeMobileMenu}>
+                            <Link to="/api" className="nav-links" onClick={ closeMobileMenu }>
                                 API QUIZ
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/flashcards" className="nav-links" onClick={closeMobileMenu}>
+                            <Link to="/flashcards" className="nav-links" onClick={ closeMobileMenu }>
                                 FLASHCARDS
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/sign-in" className="nav-links" onClick={closeMobileMenu}>
+                            <Link to="/sign-in" className="nav-links" onClick={ closeMobileMenu }>
                                 SIGN IN
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/profile" className="nav-links" onClick={closeMobileMenu}>
+                            <Link to="/profile" className="nav-links" onClick={ closeMobileMenu }>
                                 PROFILE
                             </Link>
                         </li>

@@ -1,8 +1,11 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { UserAuth } from "../../data/AuthContext";
+import { Button } from "../../components/Button/Button";
 import Footer from "../../components/Footer/Footer";
+
 import "./ProfilePage.css";
+
 
 function ProfilePage(){
     const { user, logout } = UserAuth();
@@ -15,6 +18,7 @@ function ProfilePage(){
             console.log(e.message)
         }
     }
+
     return (
         <>
             <section className="profile">
@@ -26,7 +30,7 @@ function ProfilePage(){
             <section className="sign-out">
                 <h3> Done for now? </h3>
                 <div className="sign-out-btn">
-                    <button onClick={ handleLogout }> SIGN OUT </button>
+                    <Button buttonStyle="btn--primary" buttonSize="btn--large" onClick={ handleLogout }> SIGN OUT </Button>
                 </div>
             </section>
 

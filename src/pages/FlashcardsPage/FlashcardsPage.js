@@ -3,6 +3,7 @@ import axios from 'axios';
 import FlashcardList from "./Flashcards/FlashcardList";
 import Footer from "../../components/Footer/Footer";
 import "./Flashcards.css";
+import {Button} from "../../components/Button/Button";
 
 function FlashcardsPage(){
 
@@ -68,7 +69,7 @@ function FlashcardsPage(){
                     <input type="number" id="amount" min="1" step="1" defaultValue={ 10 } ref={ amountEl }/>
                 </div>
                 <div className="form-group">
-                    <button> GENERATE </button>
+                    <Button buttonStyle="btn-primary" buttonSize="btn--medium"> GENERATE </Button>
                 </div>
             </form>
 

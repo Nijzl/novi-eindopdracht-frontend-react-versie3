@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { UserAuth } from "../../data/AuthContext";
 import ErrorMessage from "../../components/ErrorMessage/ErrorMessage";
 import "./SignInPage.css";
+import {Button} from "../../components/Button/Button";
 
 const SignInPage = () => {
     const [email, setEmail] = useState('');
@@ -29,25 +30,25 @@ const SignInPage = () => {
                 <h2> SIGN IN </h2>
 
                 <form onSubmit={ handleSubmit }>
-                    <div className="input-container">
+                    <section className="input-container">
                         <label>
                             Email:
                         </label>
                         <input className="input-field" onChange={(e) =>setEmail(e.target.value)} type="email"/>
-                    </div>
+                    </section>
 
-                    <div className="input-container">
+                    <section className="input-container">
                         <label>
                             Password:
                         </label>
                         <input className="input-field" onChange={(e) =>setPassword(e.target.value)} type="password"/>
-                    </div>
+                    </section>
 
                     { error && <ErrorMessage> { error } </ErrorMessage> }
 
-                    <div className="sign-in-btn">
-                        <button> SIGN IN </button>
-                    </div>
+                    <section className="sign-in-btn">
+                        <Button buttonStyle="btn--outline" buttonSize="btn--large"> SIGN IN </Button>
+                    </section>
 
                     <p> No Account? <Link to="/sign-up"> SIGN UP </Link></p>
                 </form>

@@ -3,6 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { UserAuth } from "../../data/AuthContext";
 import ErrorMessage from "../../components/ErrorMessage/ErrorMessage";
 import "./SignInPage.css";
+import {Button} from "../../components/Button/Button";
 
 function SignUpPage() {
 
@@ -60,7 +61,7 @@ function SignUpPage() {
                     { error && <ErrorMessage> { error } </ErrorMessage> }
 
                     <section className="sign-in-btn">
-                        <button> SIGN IN </button>
+                        <Button buttonStyle="btn--outline" buttonSize="btn--large"> SIGN IN </Button>
                     </section>
 
                     <p> Already Registered? <Link to="/sign-in"> SIGN IN </Link></p>

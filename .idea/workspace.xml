@@ -1,54 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2cac228c-4ff4-40f9-a0e3-e1fc30957deb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/installatiehandleiding.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/signuptest.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CardItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage/CardsHomePage/CardItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Cards.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage/CardsHomePage/Cards.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ErrorMessage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ErrorMessage/ErrorMessage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Flashcards/Flashcard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/FlashcardsPage/Flashcards/Flashcard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Flashcards/FlashcardList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/FlashcardsPage/Flashcards/FlashcardList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeroSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroSection/HeroSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LoadingSpinner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LoadingSpinner/LoadingSpinner.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PlayAPIQuiz/EndScreenAPI.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/PlayQuizAPIPage/PlayAPIQuiz/EndScreenAPI.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PlayAPIQuiz/GameAPI.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/PlayQuizAPIPage/PlayAPIQuiz/GameAPI.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PlayAPIQuiz/Stats.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/PlayQuizAPIPage/PlayAPIQuiz/Stats.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PlayAPIQuiz/TriviaItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/PlayQuizAPIPage/PlayAPIQuiz/TriviaItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/FlashcardsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/FlashcardsPage/FlashcardsPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage/HomePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/PageNotFound.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/PageNotFound/PageNotFound.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/PlayQuizAPIPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/PlayQuizAPIPage/PlayQuizAPIPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ProfilePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProfilePage/ProfilePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/SignInPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SignIn and SignUp/SignInPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/SignUpPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SignIn and SignUp/SignUpPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Cards.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage/CardsHomePage/Cards.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/EndScreen.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/PlayQuizAPIPage/PlayAPIQuiz/EndScreen.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/ErrorMessage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ErrorMessage/ErrorMessage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Flashcards.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/FlashcardsPage/Flashcards.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/HeroSection.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroSection/HeroSection.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/HomePage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage/HomePage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/LoadingSpinner.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LoadingSpinner/LoadingSpinner.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/PageNotFound.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/PageNotFound/PageNotFound.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/ProfilePage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProfilePage/ProfilePage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/QuizForm.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/QuizList.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/QuizPreview.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/SignInPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SignIn and SignUp/SignInPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Stats.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/PlayQuizAPIPage/PlayAPIQuiz/Stats.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/TriviaItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/PlayQuizAPIPage/PlayAPIQuiz/TriviaItem.css" afterDir="false" />
+    <list default="true" id="2cac228c-4ff4-40f9-a0e3-e1fc30957deb" name="Changes" comment="Semantische elementen toegevoegd&#10;Mappenstructuur aangepast">
+      <change afterPath="$PROJECT_DIR$/src/components/Button/Button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Button/Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeroSection/HeroSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroSection/HeroSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/FlashcardsPage/FlashcardsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/FlashcardsPage/FlashcardsPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/PlayQuizAPIPage/PlayAPIQuiz/EndScreenAPI.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/PlayQuizAPIPage/PlayAPIQuiz/EndScreenAPI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ProfilePage/ProfilePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProfilePage/ProfilePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/SignIn and SignUp/SignInPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SignIn and SignUp/SignInPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/SignIn and SignUp/SignUpPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SignIn and SignUp/SignUpPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -67,6 +43,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
@@ -81,8 +58,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677734854606</updated>
-      <workItem from="1677734857497" duration="366000" />
+      <workItem from="1677734857497" duration="2441000" />
     </task>
+    <task id="LOCAL-00001" summary="Semantische elementen toegevoegd&#10;Mappenstructuur aangepast">
+      <created>1677735431236</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677735431236</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,5 +83,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Semantische elementen toegevoegd&#10;Mappenstructuur aangepast" />
+    <option name="LAST_COMMIT_MESSAGE" value="Semantische elementen toegevoegd&#10;Mappenstructuur aangepast" />
   </component>
 </project>

@@ -1,13 +1,14 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import { Button } from "../../../components/Button/Button";
 import "./EndScreen.css";
 
 function EndStat({ label, value }) {
     return (
-        <div className="end-screen__stat">
+        <section className="end-screen__stat">
             <div className="end-screen__stat-label"> { label } </div>
             <div className="end-screen__stat-value"> { value } </div>
-        </div>
+        </section>
     );
 }
 
@@ -37,17 +38,17 @@ function EndScreen({ score, bestScore, onRetryClick, playTime }) {
             <EndStat label="Best Score" value={ bestScore } />
             <EndStat label="Time to Complete" value={ timeString } />
 
-            <div>
-                <button className="end-screen__button" onClick={ onRetryClick }>
+            <section>
+                <Button buttonStyle="btn--outline" buttonSize="btn--large" onClick={ onRetryClick }>
                     RETRY QUIZ
-                </button>
-                <button className="end-screen__button" onClick={ refreshPage }>
+                </Button>
+                <Button buttonStyle="btn--outline" buttonSize="btn--large" onClick={ refreshPage }>
                     FRESH QUIZ
-                </button>
+                </Button>
                 <Link to="/">
-                    <button className="end-screen__button"> HOME </button>
+                    <Button buttonStyle="btn--outline" buttonSize="btn--large"> HOME </Button>
                 </Link>
-            </div>
+            </section>
         </div>
     );
 }

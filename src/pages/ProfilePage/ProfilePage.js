@@ -3,9 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { UserAuth } from "../../data/AuthContext";
 import { Button } from "../../components/Button/Button";
 import Footer from "../../components/Footer/Footer";
-
 import "./ProfilePage.css";
-
 
 function ProfilePage(){
     const { user, logout } = UserAuth();

@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Installatiehandleiding
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## GitHub Link
+De link naar het GitHub project: https://github.com/Nijzl/novi-eindopdracht-frontend-react
 
-## Available Scripts
+## Eerste vereisten
+•	Internetverbinding. <br>
+•	Node.js is geïnstalleerd. <br>
+o	Download de laatste versie van Node.js hier: https://nodejs.org/en/download/
 
-In the project directory, you can run:
+## Mogelijke scripts
+Dit project is gemaakt met NPM. Onderstaande zijn een aantal scripts die gerund kunnen worden: <br>
+•	npm start – start de app in de browser. <br>
+•	npm test – start de test runner. <br>
+•	npm run build – zet de app om naar een productie-waardig formaat. <br>
+•	npm run eject – verwijdert de single build dependency. <br>
 
-### `npm start`
+## Stappenplan voor het gebruik van de app
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1.	Download het ZIP bestand meegestuurd met de deadline van de eindopdracht genaamd: “Nijzink-900100886-Frontend-Eindopdracht”.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2.	Pak het ZIP bestand uit.
 
-### `npm test`
+3.	Open de map “novi-eindopdracht-frontend-react” in een IDE naar keuze (de app is gemaakt in Webstorm). Het project wordt nu ingeladen.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4.	Ga naar de terminal en run het command <npm install>. Wacht tot de installatie compleet is.
 
-### `npm run build`
+5.	De app kan nu gerund worden door het command <npm start> in de terminal in te voeren, of door op de groene “play” knop te drukken in de rechterbovenhoek van het raam. De app wordt nu geladen in de internetbrowser die als standaard staat ingesteld. Het is aan te raden Google Chrome te gebruiken.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+6.	Om de volledige functionaliteit van de app te gebruiken is het noodzakelijk in te loggen.
+      Hoewel het geen vereiste is om door de app te navigeren zullen verschillende schermen onbereikbaar zijn als de gebruiker niet ingelogd is.
+      De gebruiker kan zich registreren met een eigen gekozen emailadres en wachtwoord. Als hij of zij dit liever niet doet kan ingelogd worden met onderstaand dummy account: <br>
+      •	Email: novifrontend@gmail.com <br>
+      •	Password: frontendaccount
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Gebruikte Libraries
+•	React & React-router & React-router-dom <br>
+•	Firebase <br>
+•	Axios <br>
+•	Use-sound <br>
+•	Motion <br>
+•	HE (HTML Entities) <br>
+•	Fontawesome

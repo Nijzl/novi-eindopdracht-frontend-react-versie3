@@ -1,0 +1,78 @@
+
+.page-container {
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url("../../assets/images/trivia.png");
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.75em;
+    padding-bottom: 5rem;
+}
+
+.cover {
+    background-image: url("../../assets/images/memphis-colorful-dim.png");
+    width: 80%;
+    height: 60%;
+    position: relative;
+    border-radius: 1em;
+    box-shadow: 0 0.188em 1.550em rgb(156, 156, 156);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.input-field {
+    border: none;
+    background-color: rgb(229, 226, 226);
+    width: 70%;
+    border-radius: 0.25em;
+    text-align: center;
+    padding: 1em;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+    font-size: 0.75em;
+}
+
+.input-field:focus {
+    outline-color: rgb(32, 177, 255);
+}
+
+.sign-in-btn {
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.25em;
+}
+
+.input-container label{
+    margin-left: 1rem;
+}
+
+@media only screen and (min-device-width: 37em) {
+    .page-container {
+        font-size: 1em;
+        height: 80vh;
+    }
+
+    .cover {
+        width: 50%;
+        height: 70%;
+    }
+}
+
+@media only screen and (min-device-width: 64em) {
+    .page-container {
+        font-size: 1em;
+    }
+
+    .cover {
+        width: 40%;
+        height: 65%;
+    }
+}

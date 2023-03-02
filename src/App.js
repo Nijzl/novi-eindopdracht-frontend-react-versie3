@@ -1,15 +1,15 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import HomePage from "./pages/HomePage";
-import SignUpPage from "./pages/SignUpPage";
-import SignInPage from "./pages/SignInPage";
-import PlayQuizAPIPage from "./pages/PlayQuizAPIPage";
-import FlashcardsPage from "./pages/FlashcardsPage";
+import Navbar from "./components/Navbar/Navbar";
+import HomePage from "./pages/HomePage/HomePage";
+import SignUpPage from "./pages/SignIn and SignUp/SignUpPage";
+import SignInPage from "./pages/SignIn and SignUp/SignInPage";
+import PlayQuizAPIPage from "./pages/PlayQuizAPIPage/PlayQuizAPIPage";
+import FlashcardsPage from "./pages/FlashcardsPage/FlashcardsPage";
 import {AuthContextProvider} from "./data/AuthContext";
 import ProtectedRoute from "./components/ProtectedRoute";
-import PageNotFound from "./pages/PageNotFound";
-import ProfilePage from "./pages/ProfilePage";
+import PageNotFound from "./pages/PageNotFound/PageNotFound";
+import ProfilePage from "./pages/ProfilePage/ProfilePage";
 
 function App() {
     return(

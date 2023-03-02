@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from 'react-router-dom';
 import { UserAuth } from "../../data/AuthContext";
+import { Button } from "../../components/Button/Button";
 import ErrorMessage from "../../components/ErrorMessage/ErrorMessage";
 import "./SignInPage.css";
-import {Button} from "../../components/Button/Button";
 
 const SignInPage = () => {
     const [email, setEmail] = useState('');

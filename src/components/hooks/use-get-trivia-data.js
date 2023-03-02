@@ -16,12 +16,16 @@ function decodeTriviaData(results){
 
 /* UTILITY FUNCTION */
 async function fetchJson(url) {
-    const response = await fetch(url);
-    if(!response.ok){
-        throw new Error(`Something went wrong, server responded with ${ response.status }`);
+    try{
+        const response = await fetch(url);
+        if(!response.ok){
+            throw new Error(`Something went wrong, server responded with ${ response.status }`);
+        }
+        const json = await response.json();
+        return json;
+    } catch(err){
+        console.error(err);
     }
-    const json = await response.json();
-    return json;
 }
 
 function useGetTriviaData(amount= 10, difficulty= ""){

@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useRef } from "react";
 import axios from 'axios';
+import { Button } from "../../components/Button/Button";
 import FlashcardList from "./Flashcards/FlashcardList";
 import Footer from "../../components/Footer/Footer";
 import "./Flashcards.css";
-import {Button} from "../../components/Button/Button";
 
 function FlashcardsPage(){
 

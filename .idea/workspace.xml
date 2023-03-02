@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2cac228c-4ff4-40f9-a0e3-e1fc30957deb" name="Changes" comment="Button component gemaakt en toegepast">
+    <list default="true" id="2cac228c-4ff4-40f9-a0e3-e1fc30957deb" name="Changes" comment="Button component functioneel">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/hooks/use-get-trivia-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hooks/use-get-trivia-data.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/FlashcardsPage/FlashcardsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/FlashcardsPage/FlashcardsPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/SignIn and SignUp/SignInPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SignIn and SignUp/SignInPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/SignIn and SignUp/SignUpPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SignIn and SignUp/SignUpPage.js" afterDir="false" />
@@ -53,7 +56,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677734854606</updated>
-      <workItem from="1677734857497" duration="5238000" />
+      <workItem from="1677734857497" duration="6219000" />
     </task>
     <task id="LOCAL-00001" summary="Semantische elementen toegevoegd&#10;Mappenstructuur aangepast">
       <created>1677735431236</created>
@@ -69,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677737665039</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Button component functioneel">
+      <created>1677748132356</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677748132356</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,6 +99,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Semantische elementen toegevoegd&#10;Mappenstructuur aangepast" />
     <MESSAGE value="Button component gemaakt en toegepast" />
-    <option name="LAST_COMMIT_MESSAGE" value="Button component gemaakt en toegepast" />
+    <MESSAGE value="Button component functioneel" />
+    <option name="LAST_COMMIT_MESSAGE" value="Button component functioneel" />
   </component>
 </project>

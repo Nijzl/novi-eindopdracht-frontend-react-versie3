@@ -19,7 +19,7 @@ function App() {
                 <AuthContextProvider>
                     <Routes>
 
-                        <Route path="/" exact element={ <ProtectedRoute> <HomePage/> </ProtectedRoute> } />
+                        <Route path="/" exact element={ <HomePage/> } />
                         <Route path="/sign-up" element={ <SignUpPage/> } />
                         <Route path="/sign-in" element={ <SignInPage/> } />
                         <Route path="/api" element={ <ProtectedRoute> <PlayQuizAPIPage/> </ProtectedRoute> } />

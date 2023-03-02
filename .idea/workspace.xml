@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2cac228c-4ff4-40f9-a0e3-e1fc30957deb" name="Changes" comment="Semantische elementen toegevoegd&#10;Mappenstructuur aangepast">
-      <change afterPath="$PROJECT_DIR$/src/components/Button/Button.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Button/Button.js" afterDir="false" />
+    <list default="true" id="2cac228c-4ff4-40f9-a0e3-e1fc30957deb" name="Changes" comment="Button component gemaakt en toegepast">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeroSection/HeroSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroSection/HeroSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/FlashcardsPage/FlashcardsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/FlashcardsPage/FlashcardsPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/PlayQuizAPIPage/PlayAPIQuiz/EndScreenAPI.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/PlayQuizAPIPage/PlayAPIQuiz/EndScreenAPI.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ProfilePage/ProfilePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProfilePage/ProfilePage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/SignIn and SignUp/SignInPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SignIn and SignUp/SignInPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/SignIn and SignUp/SignUpPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SignIn and SignUp/SignUpPage.js" afterDir="false" />
     </list>
@@ -47,6 +41,7 @@
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2022.2.1\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -58,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677734854606</updated>
-      <workItem from="1677734857497" duration="2441000" />
+      <workItem from="1677734857497" duration="5238000" />
     </task>
     <task id="LOCAL-00001" summary="Semantische elementen toegevoegd&#10;Mappenstructuur aangepast">
       <created>1677735431236</created>
@@ -67,7 +62,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677735431236</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Button component gemaakt en toegepast">
+      <created>1677737665039</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677737665039</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,6 +88,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Semantische elementen toegevoegd&#10;Mappenstructuur aangepast" />
-    <option name="LAST_COMMIT_MESSAGE" value="Semantische elementen toegevoegd&#10;Mappenstructuur aangepast" />
+    <MESSAGE value="Button component gemaakt en toegepast" />
+    <option name="LAST_COMMIT_MESSAGE" value="Button component gemaakt en toegepast" />
   </component>
 </project>

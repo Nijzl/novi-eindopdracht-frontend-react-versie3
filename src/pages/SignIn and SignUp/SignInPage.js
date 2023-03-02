@@ -29,7 +29,7 @@ const SignInPage = () => {
 
                 <h2> SIGN IN </h2>
 
-                <form onSubmit={ handleSubmit }>
+                <form>
                     <section className="input-container">
                         <label>
                             Email:
@@ -47,7 +47,7 @@ const SignInPage = () => {
                     { error && <ErrorMessage> { error } </ErrorMessage> }
 
                     <section className="sign-in-btn">
-                        <Button buttonStyle="btn--outline" buttonSize="btn--large"> SIGN IN </Button>
+                        <Button buttonStyle="btn--outline" buttonSize="btn--large" onClick={ handleSubmit }> SIGN IN </Button>
                     </section>
 
                     <p> No Account? <Link to="/sign-up"> SIGN UP </Link></p>

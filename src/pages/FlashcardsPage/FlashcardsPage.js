@@ -55,7 +55,7 @@ function FlashcardsPage(){
 
     return(
         <>
-            <form className="header" onSubmit={handleSubmit}>
+            <form className="header">
                 <div className="form-group">
                     <label htmlFor="category"> Category </label>
                     <select id="category" ref={ categoryEl }>
@@ -69,7 +69,7 @@ function FlashcardsPage(){
                     <input type="number" id="amount" min="1" step="1" defaultValue={ 10 } ref={ amountEl }/>
                 </div>
                 <div className="form-group">
-                    <Button buttonStyle="btn-primary" buttonSize="btn--medium"> GENERATE </Button>
+                    <Button buttonStyle="btn--primary" buttonSize="btn--medium" onClick={ handleSubmit }> GENERATE </Button>
                 </div>
             </form>
 

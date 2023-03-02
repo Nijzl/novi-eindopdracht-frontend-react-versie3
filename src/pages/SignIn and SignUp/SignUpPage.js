@@ -61,7 +61,7 @@ function SignUpPage() {
                     { error && <ErrorMessage> { error } </ErrorMessage> }
 
                     <section className="sign-in-btn">
-                        <Button buttonStyle="btn--outline" buttonSize="btn--large"> SIGN IN </Button>
+                        <Button buttonStyle="btn--outline" buttonSize="btn--large" onClick={ handleSubmit }> SIGN UP </Button>
                     </section>
 
                     <p> Already Registered? <Link to="/sign-in"> SIGN IN </Link></p>
